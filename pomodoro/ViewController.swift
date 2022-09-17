@@ -60,7 +60,7 @@ class ViewController: UIViewController {
             self.datePicker.alpha = 1
             self.timerLabel.alpha = 0
             self.progressView.alpha = 0
-            //이미지 뷰 되돌리기 
+            //이미지 뷰 되돌리기  
             self.imageView.transform = .identity
         })
         self.toggleButton.isSelected = false
